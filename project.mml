@@ -31,6 +31,9 @@ _parts:
   osm2pgsql: &osm2pgsql
     type: "postgis"
     dbname: "gis"
+    host: "osm-gis.c5nqqx2yvag4.eu-west-1.rds.amazonaws.com"
+    user: "postgres"
+    password: "postgres"
     key_field: ""
     geometry_field: "way"
     extent: "-20037508,-20037508,20037508,20037508"
